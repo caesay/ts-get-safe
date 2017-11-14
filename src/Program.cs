@@ -44,7 +44,7 @@ namespace ts_get_safe
             });
 
             sb.AppendLine();
-            sb.AppendLine("export = getSafe;");
+            sb.AppendLine("export default getSafe;");
             sb.AppendLine("}");
             sb.AppendLine();
 

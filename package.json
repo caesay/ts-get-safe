@@ -1,6 +1,6 @@
 {
   "name": "ts-get-safe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A typescript type-safe alternative to lodash _.get()",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,6 +12,7 @@
   },
   "author": "caesay",
   "license": "MIT",
+  "repository": "https://github.com/caesay/ts-get-safe",
   "dependencies": {
     "lodash.get": "^4.4.2"
   },

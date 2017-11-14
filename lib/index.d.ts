@@ -131,6 +131,6 @@ function getSafe<TObject, A0 extends GSArrEl<keyof TObject, TObject>, A1 extends
 function getSafe<TObject, A0 extends GSArrEl<keyof TObject, TObject>, A1 extends GSArrEl<keyof A0, A0>, A2 extends GSArrEl<keyof A1, A1>, A3 extends GSArrEl<keyof A2, A2>, A4 extends GSArrEl<keyof A3, A3>, P5 extends keyof A4>(obj: TObject, a0: number, a1: number, a2: number, a3: number, a4: number, p5: P5): A4[P5];
 function getSafe<TObject, A0 extends GSArrEl<keyof TObject, TObject>, A1 extends GSArrEl<keyof A0, A0>, A2 extends GSArrEl<keyof A1, A1>, A3 extends GSArrEl<keyof A2, A2>, A4 extends GSArrEl<keyof A3, A3>, A5 extends GSArrEl<keyof A4, A4>>(obj: TObject, a0: number, a1: number, a2: number, a3: number, a4: number, a5: number): A5;
 
-export = getSafe;
+export default getSafe;
 }
 
