@@ -1,24 +1,17 @@
 {
   "name": "ts-get-safe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A typescript type-safe alternative to lodash _.get()",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm-run-all -p --aggregate-output build:cs build:js",
-    "build:cs": "dotnet run --project src/ts-get-safe.csproj",
-    "build:js": "urequire UMD ./src -o ./lib -v"
+    "build": "dotnet run --project src/ts-get-safe.csproj"
   },
   "author": "caesay",
   "license": "MIT",
   "repository": "https://github.com/caesay/ts-get-safe",
   "dependencies": {
     "lodash.get": "^4.4.2"
-  },
-  "devDependencies": {
-    "npm-run-all": "^4.1.2",
-    "urequire": "^0.7.0-beta.33",
-    "urequire-cli": "^0.7.5"
   }
 }
